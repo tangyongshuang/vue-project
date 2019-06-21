@@ -3239,7 +3239,7 @@ request@^2.81.0:
     performance-now "^0.2.0"
     qs "~6.4.0"
     safe-buffer "^5.0.1"
-    stringstream "~0.0.4"
+    stringstream "~0.0.6"
     tough-cookie "~2.3.0"
     tunnel-agent "^0.6.0"
     uuid "^3.0.0"
