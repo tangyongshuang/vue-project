@@ -53,7 +53,7 @@ export default {
     dialogFormEdit(formEdit) {
         this.$refs[formEdit].validate((valid) => {
           if (valid) {
-            this.$axios.put(`http://localhost:8010/api/update/${this.form.id}`,this.form).then(res => {
+            this.$axios.put(`/api/update/${this.form.id}`,this.form).then(res => {
                 this.$message({
                     type:"success",
                     message:"编辑信息成功"
