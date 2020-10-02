@@ -6,6 +6,9 @@
 # 进入前端项目目录
 cd ./user-info-manage-system-demo
 
+# 安装mockjs
+npm install mockjs
+
 # 安装依赖
 npm install 
 
