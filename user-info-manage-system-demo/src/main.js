@@ -1,6 +1,9 @@
 import Vue from 'vue'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
+
+import mockdata from "./mock";
+
 import axios from 'axios'
 import App from './App.vue'
 import UserInfo from './components/UserInfo.vue'

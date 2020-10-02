@@ -126,7 +126,7 @@ export default {
    },
  methods:{
     getUserInfo() {
-        this.$axios.get('http://localhost:8010/api/findAll').then(res => {
+        this.$axios.get('/api/findAll').then(res => {
         console.log(res)
         console.log(JSON.stringify(res))
         this.tableData = res.data.data
@@ -153,7 +153,7 @@ export default {
     },
     handleDelete(index,row) {
         // 删除用户信息
-        this.$axios.delete(`http://localhost:8010/api/data/${row.id}`).then(res =>{
+        this.$axios.delete(`/api/data/${row.id}`).then(res =>{
           console.log('删除时的res'+JSON.stringify(res))
             this.$message({
                 type:"success",

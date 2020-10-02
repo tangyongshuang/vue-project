@@ -62,7 +62,7 @@ export default {
     dialogFormAdd(formdong) {
         this.$refs.formdong.validate((valid) => {
           if (valid) {
-            this.$axios.post('http://localhost:8010/api/add',this.formDate).then(res => {
+            this.$axios.post('/api/add',this.formDate).then(res => {
                 this.$message({
                     type:"success",
                     message:"添加信息成功"
